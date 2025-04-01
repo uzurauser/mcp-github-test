@@ -1,0 +1,47 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A55A2" />
+      <stop offset="100%" stop-color="#7895CB" />
+    </linearGradient>
+    <linearGradient id="connection-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#65C18C" />
+      <stop offset="100%" stop-color="#A0E4CB" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg-gradient)" rx="15" ry="15" />
+  
+  <!-- MCP Text -->
+  <text x="300" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">MCP</text>
+  <text x="300" y="110" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Model Context Protocol</text>
+  
+  <!-- Connection Lines -->
+  <path d="M150,200 C200,150 400,150 450,200" stroke="url(#connection-gradient)" stroke-width="6" fill="none" />
+  <path d="M150,250 C200,300 400,300 450,250" stroke="url(#connection-gradient)" stroke-width="6" fill="none" />
+  
+  <!-- Nodes -->
+  <circle cx="150" cy="200" r="30" fill="#A0E4CB" />
+  <circle cx="450" cy="200" r="30" fill="#A0E4CB" />
+  <circle cx="150" cy="250" r="30" fill="#A0E4CB" />
+  <circle cx="450" cy="250" r="30" fill="#A0E4CB" />
+  
+  <!-- Node Icons -->
+  <text x="150" y="207" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4A55A2" text-anchor="middle">AI</text>
+  <text x="450" y="207" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4A55A2" text-anchor="middle">APP</text>
+  <text x="150" y="257" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4A55A2" text-anchor="middle">CLI</text>
+  <text x="450" y="257" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4A55A2" text-anchor="middle">API</text>
+
+  <!-- Protocol Data Units -->
+  <rect x="250" y="180" width="100" height="40" rx="10" ry="10" fill="white" opacity="0.9" />
+  <text x="300" y="205" font-family="Arial, sans-serif" font-size="12" fill="#4A55A2" text-anchor="middle">JSON-RPC 2.0</text>
+  
+  <rect x="250" y="230" width="100" height="40" rx="10" ry="10" fill="white" opacity="0.9" />
+  <text x="300" y="255" font-family="Arial, sans-serif" font-size="12" fill="#4A55A2" text-anchor="middle">TRANSPORT</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="50" fill="#65C18C" opacity="0.3" />
+  <circle cx="500" cy="300" r="70" fill="#65C18C" opacity="0.3" />
+  <circle cx="300" cy="350" r="30" fill="#65C18C" opacity="0.3" />
+</svg> 
