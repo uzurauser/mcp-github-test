@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- Email Container -->
+  <rect x="100" y="50" width="600" height="400" fill="white" rx="10" ry="10" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Email Header -->
+  <rect x="100" y="50" width="600" height="80" fill="#2D8CFF" rx="10" ry="10"/>
+  <text x="150" y="100" font-family="Arial" font-size="24" fill="white" font-weight="bold">Zoom</text>
+  
+  <!-- Email Content -->
+  <text x="150" y="170" font-family="Arial" font-size="18" fill="#333" font-weight="bold">メールアドレス変更の確認</text>
+  
+  <text x="150" y="210" font-family="Arial" font-size="14" fill="#333">山田 太郎様、</text>
+  
+  <text x="150" y="240" font-family="Arial" font-size="14" fill="#333">
+    Zoomアカウントのメールアドレス変更リクエストを受け付けました。
+  </text>
+  <text x="150" y="270" font-family="Arial" font-size="14" fill="#333">
+    以下のボタンをクリックして、メールアドレスの変更を確認してください:
+  </text>
+  
+  <!-- Confirmation Button -->
+  <rect x="150" y="300" width="200" height="50" fill="#2D8CFF" rx="5" ry="5"/>
+  <text x="250" y="330" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">変更を確認</text>
+  
+  <text x="150" y="380" font-family="Arial" font-size="14" fill="#333">
+    このリクエストに心当たりがない場合は、このメールを無視してください。
+  </text>
+  
+  <text x="150" y="410" font-family="Arial" font-size="14" fill="#777">
+    Zoomチーム
+  </text>
+</svg> 
